@@ -1,0 +1,87 @@
+body{
+    font-family: "Brush Script";
+    font-size: 15px;
+}
+header{
+    background-color: rgb(255, 226, 245);
+    width: 100%;
+}
+
+nav{
+    background-color: rgba(83, 186, 204, 0.288);
+        display: inline-block;
+        width: 80%;
+      
+}
+nav img {
+    width: 10%;
+  }
+main{
+    background-color: rgb(190, 202, 228);
+    font-size:  20px;
+}
+footer{
+    background-color: rgb(255, 253, 140);
+}
+li{
+    display: center;
+    width: 10%;
+    
+}
+/* li {
+  display: center;
+    width: 10%;
+}
+} */
+
+h1{
+        text-align: left;
+        font-family: "Dancing Script";
+        color: rgb(0, 0, 0);
+}
+p{
+    line-height: 15px;
+}
+.skip-link {
+    position: absolute;
+    top: -100px; /* Fuera de la pantalla inicialmente */
+    left: 0;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    z-index: 1000;
+  }
+  
+  .skip-link:focus {
+    top: 0; /* Vuelve a ser visible cuando recibe el foco */
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between; /* Ajusta según necesites */
+    align-items: center;           /* Ajusta según necesites */
+    row-gap: 20px;                 /* Espaciado entre filas */
+  }
+  .grid img {
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajusta según el diseño */
+  }
+  .container {
+    display: flex;
+    justify-content: right; /* Centrado horizontal */
+    align-items: center;    /* Centrado vertical */
+  }
+  @media (max-width: 600px) {
+    ul {
+      flex-direction: column; /* Cambia a diseño vertical */
+      gap: 5px; /* Ajusta el espaciado */
+    }
+  }
+  
+      
